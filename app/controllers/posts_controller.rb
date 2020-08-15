@@ -1,7 +1,10 @@
 class PostsController < ApplicationController
 
   def index
+    @posts = Post.all
+    render json: @posts
   end
+
 
   def create 
     image = Cloudinary::Uploader.upload(params[:image])
@@ -9,6 +12,4 @@ class PostsController < ApplicationController
     post = Post.create(image: image["url"])
     render json: post
   end
-
-  
 end
