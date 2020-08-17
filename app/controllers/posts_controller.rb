@@ -2,14 +2,12 @@ class PostsController < ApplicationController
 
   def index
     @posts = Post.all
-    render json: 
-    PostSerializer.new(@posts).to_serialized_json
+    render json: @posts
   end
 
   def show
     @post = Post.find_by(id: params[:id])
-    render json:
-    PostSerializer.new(@post).to_serialized_json
+    render json: @post
   end
 
 
