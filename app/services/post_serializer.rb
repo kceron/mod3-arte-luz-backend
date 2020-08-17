@@ -1,4 +1,4 @@
-class PostSerializer
+class PostSerializer 
 
     def initialize(post_object)
         @post = post_object
