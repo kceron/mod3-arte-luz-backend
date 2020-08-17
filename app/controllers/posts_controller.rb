@@ -16,7 +16,7 @@ class PostsController < ApplicationController
   def create 
     # image = Cloudinary::Uploader.upload(params[:image])
     post = Post.create(post_params)
-    render json: post
+    render json: post, only: [:title, :image, :description, :category]
     # if user.valid?
     #   # response?
     #   render json: post
