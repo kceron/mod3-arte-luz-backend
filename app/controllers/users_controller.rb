@@ -5,8 +5,9 @@ class UsersController < ApplicationController
         render json: @users
     end
 
-    #example login method for login
+    #login method for login
     def login
+        # byebug
         @user = User.find_by(name: params[:username, :email])
         if @user
             render json: @user 
