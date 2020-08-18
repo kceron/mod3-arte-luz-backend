@@ -12,9 +12,10 @@ class PostsController < ApplicationController
 
 
   def create 
+    # byebug 
     # image = Cloudinary::Uploader.upload(params[:image])
-    post = Post.create(post_params)
-    render json: post, only: [:title, :image, :description, :category]
+    @post = Post.create(post_params)
+    render json: @post
     # if user.valid?
     #   # response?
     #   render json: post
@@ -32,8 +33,6 @@ class PostsController < ApplicationController
 
   private
   def post_params
-    params.permit[:title, :image, :description, :category, :username]
+    params.require(:post).permit(:title, :image, :description, :category, :user_id)
   end
 end
-
-
