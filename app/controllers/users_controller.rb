@@ -7,13 +7,18 @@ class UsersController < ApplicationController
 
     #login method for login
     def login
-        # byebug
-        @user = User.find_by(name: params[:username, :email])
+        @user = User.find_by(username: params[:usernameFromFrontEnd])
         if @user
             render json: @user 
         else 
             render json: {error: "User does not exist."}
         end
     end
+
+
+    # private
+    # def user_params
+    #   params.permit[:username]
+    # end
 
 end
