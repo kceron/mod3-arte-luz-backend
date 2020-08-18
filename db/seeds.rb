@@ -21,6 +21,26 @@ users = [
     email: "fran@gmail.com"
 },
 {
+    username: "coolbeans",
+    email: "coolbeans@gmail.com"
+},
+{
+    username: "senadasofly",
+    email: "senada@gmail.com"
+},
+{
+    username: "notbanksy",
+    email: "notbanksy@gmail.com"
+},
+{
+    username: "vangoghlover",
+    email: "vangoh@gmail.com"
+},
+{
+    username: "coolkeefe",
+    email: "coolkeefe@gmail.com"
+},
+{
     username: "Donut",
     email: "donut@gmail.com"
 }
@@ -46,11 +66,95 @@ posts = [
         user_id: 2
     },
     {
-        title: "MTA Series: drawing beautiful is easy",
+        title: "MTA Series",
         image: "https://im.vsco.co/aws-us-west-2/f6fce8/110342396/5c8e83d56c447110232a4761/vsco5c8e83d6bbd80.jpg?w=600&c=1&dpr=2",
         description: "I am a NYC native and I love capturing beautiful moments in the NYC subway.",
         category: "photography",
         user_id: 3
+    },
+    {
+        title: "stay Blessed",
+        image: "https://d32dm0rphc51dk.cloudfront.net/oyP6Jb1vth8o6dPSFHyWMA/large.jpg",
+        description: "I love painting portraits. Check out my beautiful friend in three different views",
+        category: "paintings",
+        user_id: 4
+    },
+    {
+        title: "palm bliss",
+        image: "https://d32dm0rphc51dk.cloudfront.net/SgmVsYqcC65M2KIVz2Z7FQ/large.jpg",
+        description: "This is a painting of a view from one of my favorite palces on earth.",
+        category: "paintings",
+        user_id: 5
+    },
+    {
+        title: "Crown of Thrones",
+        image: "https://d32dm0rphc51dk.cloudfront.net/4vB3ARau2WokiUN7Bir2rA/large.jpg",
+        description: "I really enjoy drawing. Just starting using ink! Here is one my doodles.",
+        category: "drawings",
+        user_id: 6
+    },
+    {
+        title: "Da GLOBE",
+        image: "https://d32dm0rphc51dk.cloudfront.net/svEpqU4tNwLC4x1Oo7ZB8g/large.jpg",
+        description: "Sculpture inspired by the globe.",
+        category: "random",
+        user_id: 7
+    },
+    {
+        title: "Picador",
+        image: "https://d32dm0rphc51dk.cloudfront.net/ZEyPD4-EYjF4Mz5hHK-xDw/large.jpg",
+        description: "A sculpture I made. You figure out what it is!",
+        category: "random",
+        user_id: 8
+    },
+    {
+        title: "meOW",
+        image: "https://d32dm0rphc51dk.cloudfront.net/r4Vv-Guwk1SVQrNI6yj81w/large.jpg",
+        description: "Let's go little kitty cat",
+        category: "paintings",
+        user_id: 3
+    },
+    {
+        title: "Robot",
+        image: "https://d32dm0rphc51dk.cloudfront.net/ee6lrjSoBqKb9M-D1Ei7BQ/large.jpg",
+        description: "A robot on mars. What else do you think it is?",
+        category: "random",
+        user_id: 2
+    },
+    {
+        title: "fila fila",
+        image: "https://d32dm0rphc51dk.cloudfront.net/387oZ7LT8pmOxnQ4YR1o6A/large.jpg",
+        description: "much more than just a cube",
+        category: "random",
+        user_id: 4
+    },
+    {
+        title: "Bienvenidos",
+        image: "https://d32dm0rphc51dk.cloudfront.net/VKaARhqG0ffuQ94TerVmnw/large.jpg",
+        description: "welcome to all. one of my favorite paintings.",
+        category: "paintings",
+        user_id: 6
+    },
+    {
+        title: "Sad Seat",
+        image: "https://d32dm0rphc51dk.cloudfront.net/CNGffyq2Pag5uhXSbWKCKQ/large.jpg",
+        description: "this is a sad seat.",
+        category: "drawings",
+        user_id: 7
+    },
+    {
+        title: "sky",
+        image: "https://d32dm0rphc51dk.cloudfront.net/Xvpy9DYyqgCqtVSIGdOz2g/large.jpg",
+        description: "look up and what do you see?",
+        category: "paintings",
+        user_id: 1
+    },
+    {
+        title: "loosing sleep",
+        image: "https://d32dm0rphc51dk.cloudfront.net/0ZjP_GKlk4bXYUYP2YnVPA/large.jpg",
+        description: "woof woof",
+        category: "paintings",
+        user_id: 4
     },
     {
         title: "SSSSculpture",
@@ -116,11 +220,11 @@ likes = [
     },
     {
         user_id: 2,
-        post_id: 1
+        post_id: 3
     },
     {
         user_id: 3,
-        post_id: 2
+        post_id: 3
     },
     {
         user_id: 1,
