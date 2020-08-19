@@ -16,12 +16,6 @@ class PostsController < ApplicationController
     # image = Cloudinary::Uploader.upload(params[:image])
     @post = Post.create(post_params)
     render json: @post
-    # if user.valid?
-    #   # response?
-    #   render json: post
-    # else
-    #   render json: { errors: post.errors.full_messages }, status: 400
-    # end
   end
 
   #DELETE
