@@ -12,10 +12,17 @@ class PostsController < ApplicationController
 
 
   def create 
+<<<<<<< HEAD
     # byebug 
     # image = Cloudinary::Uploader.upload(params[:image])
     @post = Post.create(post_params)
     render json: @post
+=======
+    # byebug
+    # image = Cloudinary::Uploader.upload(params[:image])
+    post = Post.create(post_params)
+    render json: post, only: [:title, :image, :description, :category, :user_id]
+>>>>>>> login
     # if user.valid?
     #   # response?
     #   render json: post
