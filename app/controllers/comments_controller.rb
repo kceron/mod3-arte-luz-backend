@@ -6,9 +6,14 @@ class CommentsController < ApplicationController
   end
 
   def create 
-    @comment = Post.create(content: params[:content])
+    # byebug
+    @comment = Comment.create(comment_params)
     render json: @comment
   end
 
+  private
+  def comment_params
+    params.permit(:content, :post_id, :user_name)
+  end
 
 end
