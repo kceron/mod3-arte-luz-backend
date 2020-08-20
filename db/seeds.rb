@@ -101,11 +101,54 @@ posts = [
         user_id: 7
     },
     {
-        title: "Picador",
-        image: "https://d32dm0rphc51dk.cloudfront.net/ZEyPD4-EYjF4Mz5hHK-xDw/large.jpg",
-        description: "A sculpture I made. You figure out what it is!",
-        category: "random",
+        title: "Dog Barf",
+        image: "https://d32dm0rphc51dk.cloudfront.net/4B-umX8VDHFmjl0Nqbx8Ww/large.jpg",
+        description: "painting I made of my cute lil pup",
+        category: "paintings",
+        user_id: 2
+    },
+    {
+        title: "Salaon de Enfance",
+        image: "https://d32dm0rphc51dk.cloudfront.net/XRx862ZonxdZkkFxTIdD1A/large.jpg",
+        description: "",
+        category: "drawings",
+        user_id: 5
+    },
+    {
+        title: "Rose Waters",
+        image: "https://cdn.hydralivetherapy.com/wp-content/uploads/2019/09/WhatisaspiritualBath.jpg",
+        description: "Set up a nice rosewater bath for myself and captured this gem.",
+        category: "photography",
+        user_id: 3
+    },
+    {
+        title: "Peony",
+        image: "https://d32dm0rphc51dk.cloudfront.net/QHF3GHfhXyfSnDfspUHhqQ/large.jpg
+        ",
+        description: "i love to paint flowers! Here is a peony I painted",
+        category: "paintings",
+        user_id: 7
+    },
+    {
+        title: "Whales",
+        image: "https://i.etsystatic.com/8585009/r/il/5fd345/1032305538/il_1588xN.1032305538_ahty.jpg",
+        description: "I just started working with water colors.Check out these whales I painted!",
+        category: "paintings",
         user_id: 8
+    },
+    {
+        title: "NYC Rain",
+        image: "https://cdn.tutsplus.com/photo/uploads/legacy/452_urbanphotography/4.jpg",
+        description: "It was pouring rain in the city and I captured this picture.",
+        category: "photography",
+        user_id: 8
+    },
+    {
+        title: "sigh",
+        image: "https://ichef.bbci.co.uk/news/976/cpsprodpb/35F8/production/_112761831_tomoldhamunitedkingdomopenphotographeroftheyearopencompetitionportraiture2020sonyworldphotographyawards.jpg",
+        description: "Photo series I am working on.",
+        category: "photography",
+        user_id: 6
     },
     {
         title: "meOW",
@@ -169,7 +212,15 @@ posts = [
         description: "This bee drawing was done all in pencil. Improving my shading and details every day!",
         category: "drawings",
         user_id: 2
+    },
+    {
+        title: "Just Look",
+        image: "https://www.worldphoto.org/sites/default/files/gallery/images/2013057/cbda9962b43e64930eaa7fa4f0867265.IMG_3777.jpg",
+        description: "My friend and I spent the day outside messing around with my camera.",
+        category: "photography",
+        user_id: 3
     }
+
 ]
 posts.each do |post| 
     Post.create(title: post[:title], image: post[:image], description: post[:description], category: post[:category], user_id: post[:user_id])
