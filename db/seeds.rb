@@ -37,12 +37,20 @@ users = [
     email: "vangoh@gmail.com"
 },
 {
-    username: "coolkeefe",
-    email: "coolkeefe@gmail.com"
+    username: "jorge",
+    email: "jorge@gmail.com"
 },
 {
     username: "Donut",
     email: "donut@gmail.com"
+},
+{
+    username: "javee",
+    email: "javee@gmail.com"
+},
+{
+    username: "barb",
+    email: "barb@gmail.com"
 }
 ]
 users.each do |user| 
@@ -57,6 +65,13 @@ posts = [
         description: "I have a passion for watercolors. Italy is one of my favorite places in the world. Last time I was in Venice I was inspired by the colors and energy and this is one of the watercolors I made!",
         category: "paintings",
         user_id: 1
+    },
+    {
+        title: "Losing track",
+        image: "https://www.bkmotel.org/exhibitions/2020/jg/install/15.jpg",
+        description: "oil on canvas",
+        category: "paintings",
+        user_id: 7
     },
     {
         title: "Oil Portaits",
@@ -94,11 +109,18 @@ posts = [
         user_id: 6
     },
     {
+        title: "Doodle",
+        image: "https://scontent-iad3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/12346286_1001272623270667_1869250270_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=107&_nc_ohc=rWlOgdu_atAAX9DuK--&oh=2d774aa0412cff34c3903927892d6fe8&oe=5F69BE2C",
+        description: "this is one of the sketches i have been working on",
+        category: "drawings",
+        user_id: 1
+    },
+    {
         title: "Da GLOBE",
         image: "https://d32dm0rphc51dk.cloudfront.net/svEpqU4tNwLC4x1Oo7ZB8g/large.jpg",
         description: "Sculpture inspired by the globe.",
         category: "random",
-        user_id: 7
+        user_id: 5
     },
     {
         title: "Dog Barf",
@@ -127,6 +149,13 @@ posts = [
         ",
         description: "i love to paint flowers! Here is a peony I painted",
         category: "paintings",
+        user_id: 6
+    },
+    {
+        title: "Rum & Coke",
+        image: "https://www.bkmotel.org/exhibitions/2020/jg/install/10.jpg",
+        description: "oil on canvas",
+        category: "paintings",
         user_id: 7
     },
     {
@@ -137,11 +166,53 @@ posts = [
         user_id: 8
     },
     {
+        title: "Q?C?C?",
+        image: "https://lh3.googleusercontent.com/fife/ABSRlIqQ8aTD2c8JIxAtFsKS01Wl36DswHZ3ak0wIRXzCFCVciF6k3TYb57IZ03BN6FGvyVd3I7DQ_qFfddKDqVbom-rVd2mfEmTJyzVRZWPZCAgzmYX1muLaA40i5YwDnFjfEH20ygAxFefI5MdUpbHxE2SWkvvSmwPlRpYrdcX29mrKepRxiBK3Q66cRxVvroUtgMSctoKsnJUhpRgpGqbQuLLm3SLDe4O0YTJ6TjWWCPjtpGK_g2hJuQbLruCSQmbZHx9UQ_MDsEG-YUe0yyyJjqA4RDpx-ZJyZAnnNXNNSgXPI2CvW4DWZTZO-IirSS6glVNRac9z69NETHaqFa6_jI9vCb-yAC8C_plDYR4LVQJYNG5zBPR-83TGmKKhL1aox-bXUGlVJ6nKKQxgdplRvDqcQjrk9CBUTELZ0gXDzJDYiaFnv1Mb_Fy-39fTjIdQgypfzDT1FMw9Rja9j4c2biilPVfItUwWXFBDO2BQ0YVZK2bECwm1OinKxxlqiAbbVqQq5WydLiNmWnbX420zlyyUktMuZa78UlLY9vTGQN_b_iWB48A8IlW3v6ATfqCUnW8hDAtd1WJ7QWJ4O36p8GLIv5o8kymBuoqVmoyjzAQjaCMEaE3-rXPz0BqcAiwtxx46bZbYvaAnhlNUcmXoQCEkPtP6SMZkkROTCSR26LkX1sNaUPA2S2L44IOU-xWgChqSo8MQIMprvLRd1y-mDz3CwbNgIPFBoQ=w1854-h1594-ft",
+        description: "Questions? Comments? Concerns? Here is my super cool instructor, Eric!",
+        category: "drawings",
+        user_id: 2
+    },
+    {
         title: "NYC Rain",
         image: "https://cdn.tutsplus.com/photo/uploads/legacy/452_urbanphotography/4.jpg",
         description: "It was pouring rain in the city and I captured this picture.",
         category: "photography",
         user_id: 8
+    },
+    {
+        title: "Work in Progress",
+        image: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fscontent-mia3-1.cdninstagram.com%2Fv%2Ft51.2885-15%2Fsh0.08%2Fe35%2Fp640x640%2F12424597_1555055754805852_705458538_n.jpg%3F_nc_ht%3Dscontent-mia3-1.cdninstagram.com%26_nc_cat%3D104%26_nc_ohc%3D12O45N60hIsAX9aWUfa%26oh%3Dfbfd2d38eb3240223e1ba78b8e45170d%26oe%3D5F68E710",
+        description: "repressing anger",
+        category: "drawings",
+        user_id: 1
+    },
+    {
+        title: "Study",
+        image: "https://www.bkmotel.org/exhibitions/2020/jg/install/18.jpg",
+        description: "water color that i painted",
+        category: "paintings",
+        user_id: 7
+    },
+    {
+        title: "welp",
+        image: "https://lh3.googleusercontent.com/fife/ABSRlIrMF1dgnsE80PqxwdxYccdLpQnr7BqFst2Mreod-yFdAUW7xSPB7riFPPabpu47loS6OsLjDvXP8p92JS18IC06ciwJ3TtwgaaOIje0nxcmQ4iVzJZynuV-gdtb9F-EAjosh-I6VqkPWSStqi1TgKif_rcsrATgnxTuDJLeXVakLU4X6xN6A-bwCKih3O31FOozoyk18aOr8zPXu0rMZYboSJTP1J4iPy0NFKKXQPLxugBoLsAUNs5dtqWqRhe1tKdBF4ETK7ei5-g67hRToZDAk5FgSLbbK7yg4loGZ0ssSh_BU4qbIOT7KC-QrhTjyVcEPjzjubpyYmGopb7ijgxezhiZUxq_AM5qTEWStFpE7hzR3xt5Q23rbZbzHqOy0rIkDmwt3I-VQM_K9ETn-CZo-MwfUpwfhhewHinff4Evb8MzjtIe0Buil5d-FHCNKz7sUGNNJkOiNih5yZKEv1eJdeAAYKAqwq7qzjIZ0gKUtXqnusIrjuueuqxRrkLN8_w678VqLm7ZznQFP6IzHpKcUClv90iQcGfB3UQVhNg7DuC5B5rMHTqXMB2ui6XiQ_SpfqSn7glk1maK8mKdEFkfwQMaeisrAcph4FqkysmhOMaGCqYn8Mdon90vUXvnkclNvcfReF2blRo16EsM8zjMj-JeRO1Bepf65u1rOLa9caIMYnzn20sc9maFU_HeULiN4pa1aTu9cSHea_OVL_6f0O4SlvQa4LI=w2880-h1454-ft",
+        description: "WELP",
+        category: "random",
+        user_id: 9
+    },
+    {
+        title: "YoItsBarbs!",
+        image: "https://lh3.googleusercontent.com/fife/ABSRlIrR2umQ3mDUwvCair8gsX19wDC_Q4bg37kDR4fH4BtEOeR2btLHBYGUJIzTbg5cq0DOkZlWprsolXqD6_eCNugDWTxHfnxxpS7t_p73NVQtzdVl1T6ibc92uLTTYKTiiUIZiedyyIqX-xsDujajegMyu_1FX6jo_PzmEPDBTjpomL9MfZkP-u72hm71cm99RXYW0vigAiqrASC6UpbW0wCxOHj1ehAt8wwnLxxu3tz58tu2yMhP2xp1nMHVI5efz3wCJw9mIyFqS09P_SMsy2wDrhWUxQXlAi3rBQM8LPl6uhiPZFSH6DT0gY8niLWh2_TGRmrlemVp96q0rYaJU8sQbym4-QRXNhndQgi90egEuz_pnTzJeMjjbVooMTK84L5hlsrnh-eIeAh9bDdCr4e14NSJ6RaGrUSs3ZFfJKIgDge8G31wefUft3BSZKL5IXUrFRBeaHr1kP1O1Rb5ynQN_zpY0LlISUqoNqhLqTs04GlKCoS7VdxcHfVo70HyAgbWAoca0XnvKHxk_iweNgBEiyckiAlU8hq3aQEPnQNhEftntSUD2xC5nm3zdbseoXQaOASmPqmV7ASyolYsPBOUrsO0OVAb44wxyc-VPooPQjIxxiTPLMjFJzl-CCHHOYM4qIde0pWMsjxR-9D1DZU38RSvyAiI0oHT5LFuGpS-rbKbjJjbWBrO9q6WnZXlyjZVWHokcjWfLOPNySDLtXKMUHXtgqH2QEU=w1440-h1594-ft",
+        description: "Yo yo its my friend barbs",
+        category: "drawings",
+        user_id: 2
+    },
+    {
+        title: "come in",
+        image: "https://lh3.googleusercontent.com/fife/ABSRlIqeu_c-khXFHfr1mEUerTU_aZ_HpAbLO2V4dGVzTNkNXbvql18O8rJpf0hlrlo6Y0ccEkZCZu1949CQuDpZ5n1rh4KgVUHjevx1g6rhLzYHTRSaqwf4id02tIuUxgLRqN-lHyqdA13GDZpHledPrQ_-6cl_QzeNAij8vR4PvVWVNQF8tWgUMrxSKm1lgxDwjD-axJ8noYhUhnMtyJrwXoL4ZFdZOyCyi7H0B2Kz1VsP1uS0uReTBO2dtyuPIXvsLqtnAXEyVMxVN8-LrBbwsItR6iYlVLW9K-SY7NWKYSRQ2C9MFzAE9PLBKy1DEn-hZ7IeLpr-Rh5q92Q1rfMlIT4o0-zHWjdoLd4lDWR_lg4qYJva-yqtpJgQPDXaa4yvqV-VJwz4jw8nRckU9xygjzrB_1Lw3m80MzGdHagKUUWfFSRRsVnwd3EvahAcP4Z3GHOA0eiaODUnQ9_kzBkX1s-L9IW25vl58ydOD-dYSse4CxMbB3CdZQ9m8-AoNRXs4VZKOzDY_vbRUlv65Ekd1ggBI1J1czudGf08Y-H-mzU_3eJQaXvSW_TtEjO5m1wvxxG60pH0EJWZBHEcKPDt4EX880wbiGU3kX8uKxNWN8S8XKQt2FxFwU2DCWKM3d0Y4cDgIP16prvqTEW_Y3jPtU-iYP6Ik8jR67mFd26PKPy5yPM-sGsKNmFA6Rh-a0Q_NjbzNZy1ODkcpdA2V-_lodS-T6kpYWPA02A=w1854-h1594-ft",
+        description: "attempting this water color thing",
+        category: "paintings",
+        user_id: 10
     },
     {
         title: "sigh",
@@ -163,6 +234,20 @@ posts = [
         description: "A robot on mars. What else do you think it is?",
         category: "random",
         user_id: 2
+    },
+    {
+        title: "Super doodle",
+        image: "https://scontent-iad3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/s640x640/13573643_607679919409386_1963168920_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=106&_nc_ohc=rkGijgOmDfUAX_N5LNE&oh=f86654491df7523ed9af79f3da174164&oe=5F6921C5",
+        description: "just one of my doodles",
+        category: "drawings",
+        user_id: 1
+    },
+    {
+        title: "last drink",
+        image: "https://www.bkmotel.org/exhibitions/2020/jg/install/13.jpg",
+        description: "oil on canvas",
+        category: "paintings",
+        user_id: 7
     },
     {
         title: "fila fila",
